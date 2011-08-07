@@ -1,0 +1,6 @@
+It's simple to run!
+# python ./card.py
+
+* This will alert you (by playing iTunes) whenever Jonathan's card reaches a certain threshold.
+* see card.py for default values
+* Must have an iTunes library w/ songs
