@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AMApplicationBuild</key>
+	<string>329</string>
+	<key>AMApplicationVersion</key>
+	<string>2.2</string>
+	<key>AMDocumentVersion</key>
+	<string>2</string>
+	<key>actions</key>
+	<array>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMAccepts</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<true/>
+					<key>Types</key>
+					<array>
+						<string>com.apple.applescript.object</string>
+					</array>
+				</dict>
+				<key>AMActionVersion</key>
+				<string>1.0.1</string>
+				<key>AMApplication</key>
+				<array>
+					<string>iTunes</string>
+				</array>
+				<key>AMParameterProperties</key>
+				<dict/>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Types</key>
+					<array>
+						<string>com.apple.applescript.object</string>
+					</array>
+				</dict>
+				<key>AMRequiredResources</key>
+				<array>
+					<dict>
+						<key>Display Name</key>
+						<string>iTunes</string>
+						<key>Resource</key>
+						<string>com.apple.iTunes</string>
+						<key>Type</key>
+						<string>application</string>
+						<key>Version</key>
+						<string>4.6</string>
+					</dict>
+				</array>
+				<key>ActionBundlePath</key>
+				<string>/System/Library/Automator/Start iTunes Playing.action</string>
+				<key>ActionName</key>
+				<string>Start iTunes Playing</string>
+				<key>BundleIdentifier</key>
+				<string>com.apple.Automator.StartiTunesPlaying</string>
+				<key>CFBundleVersion</key>
+				<string>1.0.1</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<true/>
+				<key>CanShowWhenRun</key>
+				<false/>
+				<key>Category</key>
+				<array>
+					<string>AMCategoryMusic</string>
+				</array>
+				<key>Class Name</key>
+				<string>AMStartiTunesPlayingAction</string>
+				<key>InputUUID</key>
+				<string>9680AC53-FFCB-4195-9AD4-74ACF1EE8531</string>
+				<key>Keywords</key>
+				<array>
+					<string>Start</string>
+					<string>Play</string>
+					<string>Track</string>
+					<string>Song</string>
+					<string>Music</string>
+				</array>
+				<key>OutputUUID</key>
+				<string>D0D38D46-01C9-40EA-A337-C1C4BE766340</string>
+				<key>UUID</key>
+				<string>DCE6BCC0-9387-42E6-856E-FD793F7BEB71</string>
+				<key>UnlocalizedApplications</key>
+				<array>
+					<string>iTunes</string>
+				</array>
+				<key>conversionLabel</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+	</array>
+	<key>connectors</key>
+	<dict/>
+	<key>workflowMetaData</key>
+	<dict>
+		<key>workflowTypeIdentifier</key>
+		<string>com.apple.Automator.application</string>
+	</dict>
+</dict>
+</plist>
